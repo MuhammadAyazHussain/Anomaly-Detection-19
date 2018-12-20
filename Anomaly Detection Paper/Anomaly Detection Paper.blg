@@ -1,0 +1,13 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Anomaly Detection Paper.aux
+The style file: ACM-Reference-Format-Journals.bst
+Database file #1: acmsmall-sample-bibfile.bib
+Warning--unrecognized DOI value [https://doi.org/10.1016/j.enbuild.2017.02.058]
+Warning--require articleno with numpages field in Bhattacharjee:2018:TFS:3196494.3196551
+Warning--unrecognized DOI value [https://doi.org/10.1016/j.apenergy.2017.12.005]
+Warning--can't use both author and editor fields in Haynes2013
+Warning--require articleno with numpages field in Kruegel:2003:ADW:948109.948144
+Warning--empty booktitle in inproceedings1
+Warning--empty publisher in inproceedings1
+Warning--empty address in inproceedings1
+Warning--no journal in article123
+(There were 9 warnings)

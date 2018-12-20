@@ -1,0 +1,2146 @@
+%%% ====================================================================
+%%%  BibTeX-file{
+%%%     author          = "Gerry Murray",
+%%%     version         = "1.2",
+%%%     date            = "2 April 2012",
+%%%     filename        = "acmsmall-sample-bibfile.bib",
+%%%     address         = "ACM, NY",
+%%%     email           = "murray at hq.acm.org",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "ACM Reference Format, bibliography, citation, references",
+%%%     supported       = "yes",
+%%%     docstring       = "This BibTeX database file contains 'bibdata' entries
+%%%                        that 'match' the examples provided in the Specifications Document
+%%%                        AND, also, 'legacy'-type bibs. It should assist authors in 
+%%%                        choosing the 'correct' at-bibtype and necessary bib-fields
+%%%                        so as to obtain the appropriate ACM Reference Format output. 
+%%%			   It also contains many 'Standard Abbreviations'. "
+%%%  }
+%%% ====================================================================
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+
+%Entries
+
+@Article{Abril07,
+  author 	= "Patricia S. Abril and Robert Plant",
+  title 	= "The patent holder's dilemma: Buy, sell, or troll?",
+  journal 	= "Communications of the ACM",
+  volume 	= "50",
+  number 	= "1",
+  month 	= jan,
+  year 		= "2007",
+  pages 	= "36--44",
+  doi 		= "10.1145/1188913.1188915",
+  url		= "http://doi.acm.org/10.1145/1219092.1219093",
+  note		= "",
+}
+
+@Article{Cohen07,
+  author 	=	"Sarah Cohen and Werner Nutt and Yehoshua Sagic",
+  title		=	"Deciding equivalances among conjunctive aggregate queries",
+  journal 	=	JACM,
+  articleno	=	"5",
+  numpages	=	"50",
+  volume 	=	"54",
+  number 	= 	"2",
+  month 	=	apr,
+  year 		=	"2007",
+  doi 		=	"10.1145/1219092.1219093",
+  url 		=	"http://doi.acm.org/10.1145/1219092.1219093",
+  acmid		=	"1219093",
+  note 		= 	"",
+}
+
+
+@article{JCohen96,
+  key = 	 "Cohen",
+  editor =       "Jacques Cohen",
+  title =        "Special Issue: Digital Libraries",
+  journal =      CACM,
+  volume =       "39",
+  number = 	 "11",
+  month =	 nov,
+  year = 	 "1996",
+  author = 	 "",
+  publisher = 	 "",
+  chapter = 	"",
+  pages = 	"",
+  series = 	 "",
+  address = 	 "",
+  edition = 	 "",
+  note = 	 "",
+}
+
+
+@Book{Kosiur01,
+  author =       "David Kosiur",
+  title =        "Understanding Policy-Based Networking",
+  publisher =    "Wiley",
+  year =         "2001",
+  address =      "New York, NY",
+  edition =      "2nd.",
+  editor = 	 "",
+  volume = 	 "",
+  number = 	 "",
+  series = 	 "",
+  month = 	 "",
+  note = 	 "",
+}
+
+
+@Book{Harel79,
+  author =       "David Harel",
+  year =         "1979",
+  title =        "First-Order Dynamic Logic",
+  series =       "Lecture Notes in Computer Science",
+  volume =       "68",
+  address =      "New York, NY",
+  publisher =    "Springer-Verlag",
+  doi = 	 "10.1007/3-540-09237-4",
+  url = 	 "http://dx.doi.org/10.1007/3-540-09237-4",
+  editor = 	 "",
+  number = 	 "",
+  month = 	 "",
+  note = 	 "",
+}
+
+
+@Inbook{Editor00,
+  author = 	 "",
+  editor =       "Ian Editor",
+  title =        "The title of book one",
+  subtitle =     "The book subtitle",
+  series =       "The name of the series one",
+  year =         "2007",
+  volume = 	 "9",
+  address =      "Chicago",
+  edition =      "1st.",
+  publisher =    "University of Chicago Press",
+  doi = 	 "10.1007/3-540-09237-4",
+  url = 	 "http://dx.doi.org/10.1007/3-540-09456-9",
+  chapter = 	 "",
+  pages = 	 "",
+  number = 	 "",
+  type = 	 "",
+  month = 	 "",
+  note = 	 "",
+}
+
+%
+@InBook{Editor00a,
+  author = 	 "",
+  editor =       "Ian Editor",
+  title =        "The title of book two",
+  subtitle =     "The book subtitle",
+  series =       "The name of the series two",
+  year =         "2008",
+  address =      "Chicago",
+  edition =      "2nd.",
+  publisher =    "University of Chicago Press",
+  doi = 	 "10.1007/3-540-09237-4",
+  url = 	 "http://dx.doi.org/10.1007/3-540-09456-9",
+  volume = 	 "",
+  chapter = 	 "100",
+  pages = 	 "",
+  number = 	 "",
+  type = 	 "",
+  month = 	 "",
+  note = 	 "",
+}
+
+
+% incollection (has an editor, title, and possibly a booktitle)
+@Incollection{Spector90,
+  author =       "Asad Z. Spector",
+  title =        "Achieving application requirements",
+  booktitle =    "Distributed Systems",
+  publisher =    "ACM Press",
+  address =      "New York, NY",
+  year =         "1990",
+  edition =      "2nd.",
+  chapter =      "",
+  editor = 	 "Sape Mullender",
+  pages =        "19--33",
+  doi = 	 "10.1145/90417.90738",
+  url = 	 "http://doi.acm.org/10.1145/90417.90738",
+  volume =	 "",
+  number = 	 "",
+  series =	 "",
+  type = 	 "",
+  month = 	 "",
+  note = 	 "",
+}
+
+
+% incollection (has an editor, title, and possibly a booktitle)
+@Incollection{Douglass98,
+  author =       "Bruce P. Douglass and David Harel and Mark B. Trakhtenbrot",
+  title =        "Statecarts in use: structured analysis and object-orientation",
+  series =       "Lecture Notes in Computer Science",
+  booktitle =    "Lectures on Embedded Systems",
+  publisher =    "Springer-Verlag",
+  address =      "London",
+  volume = 	 "1494",
+  year =         "1998",
+  chapter =      "",
+  editor = 	 "Grzegorz Rozenberg and Frits W. Vaandrager",
+  pages =        "368--394",
+  doi = 	 "10.1007/3-540-65193-4_29",
+  url = 	 "http://dx.doi.org/10.1007/3-540-65193-4_29",
+  edition = 	 "",
+  number = 	 "",
+  type = 	 "",
+  month = 	 "",
+  note = 	 "",
+}
+
+
+@Book{Knuth97,
+  author =       "Donald E. Knuth",
+  title =        "The Art of Computer Programming, Vol. 1: Fundamental Algorithms (3rd. ed.)",
+  publisher =    "Addison Wesley Longman Publishing Co., Inc.",
+  year =         "1997",
+  address =      "",
+  edition =      "",
+  editor = 	 "",
+  volume = 	 "",
+  number = 	 "",
+  series = 	 "",
+  month = 	 "",
+  note = 	 "",
+}
+
+
+@Book{Knuth98,
+  author =       "Donald E. Knuth",
+  year =         "1998",
+  title =        "The Art of Computer Programming",
+  series =       "Fundamental Algorithms",
+  volume =       "1",
+  edition =      "3rd",
+  address =      "",
+  publisher =    "Addison Wesley Longman Publishing Co., Inc.",
+  doi = 	 "",
+  url = 	 "",
+  editor = 	 "",
+  number = 	 "",
+  month = 	 "",
+  note = 	 "(book)",
+}
+
+%Inbook{Knuth97,
+%  author = 	 "Donald E. Knuth",
+%  title = 	 "The Art of Computer Programming",
+%  booktitle =    "the booktitle",
+%  edition =      "3",
+%  volume =       "1",
+%  year =         "1997",
+%  publisher =    "Addison Wesley Longman Publishing Co., Inc.",
+%  editor = 	 "",
+%  number = 	 "",
+%  series = 	 "Fundamental Algorithms",
+%  type = 	 "",
+%  chapter = 	 "",
+%  pages = 	 "",
+%  address = 	 "",
+%  month = 	 "",
+%  note = 	 "(inbook)",
+%}
+
+%INBOOK{DK:73-inbook-full,
+%   author = "Donald E. Knuth",
+%   title = "Fundamental Algorithms (inbook w series)",
+%   volume = 1,
+%   series = "The Art of Computer Programming",
+%   publisher = "Addison-Wesley",
+%   address = "Reading, Massachusetts",
+%   edition = "Second",
+%   month = "10~" # jan,
+%   year = "1973",
+%   type = "Section",
+%   chapter = "1.2",
+%   pages = "10--119",
+%   note = "Full INBOOK entry (w series)",
+%}
+
+%INcollection{DK:74-incoll,
+%   author = "Donald E. Knuth",
+%   title = "Fundamental Algorithms (incoll)",
+%   volume = 1,
+%   booktitle = "The Art of Computer Programming",
+%   publisher = "Addison-Wesley",
+%   address = "Reading, Massachusetts",
+%   month = "10~" # jan,
+%   year = "1974",
+%   pages = "10--119",
+%   editor = 	 "Bernard Rous",
+%   note = "This is a full incoll entry with an editor",
+%}
+
+%INcollection{DK:75-incollws,
+%   author = "Donald E. Knuth",
+%   title = "Fundamental Algorithms (incoll w series)",
+%   volume = 1,
+%   booktitle = "The Art of Computer Programming",
+%   series = "The Art of Computer Programming",
+%   publisher = "Addison-Wesley",
+%   address = "Reading, Massachusetts",
+%   month = "10~" # jan,
+%   year = "1975",
+%   pages = "10--119",
+%   editor = "Bernard Rous",
+%   note = "This is a full incoll entry with an editor and series",
+%}
+
+
+@incollection{GM05,
+Author= "Dan Geiger and Christopher Meek",
+Title= "Structured Variational Inference Procedures and their Realizations (as incol)",
+Year= 2005,
+Booktitle="Proceedings of Tenth International Workshop on Artificial Intelligence and Statistics, {\rm The Barbados}",
+Publisher="The Society for Artificial Intelligence and Statistics",
+Month= jan,
+Editors= "Z. Ghahramani and R. Cowell"
+}
+
+@Inproceedings{Smith10,
+  author =       "Stan W. Smith",
+  title =        "An experiment in bibliographic mark-up: Parsing metadata for XML export",
+  booktitle =    "Proceedings of the 3rd. annual workshop on Librarians and Computers",
+  series = 	 "LAC '10",
+  editor = 	 "Reginald N. Smythe and Alexander Noble",
+  volume = 	  "3",
+  year =         "2010",
+  publisher =    "Paparazzi Press",
+  address = 	 "Milan Italy",
+  pages =        "422--431",
+  doi = 	 "99.9999/woot07-S422",
+  url = 	 "http://dx.doi.org/99.0000/woot07-S422",
+  number =	 "",
+  month = 	 "",
+  organization = "",
+  note = 	 "",
+}
+
+@Inproceedings{VanGundy07,
+  author =       "Matthew Van Gundy and Davide Balzarotti and Giovanni Vigna",
+  year =         "2007",
+  title =        "Catch me, if you can: Evading network signatures with web-based polymorphic worms",
+  booktitle =    "Proceedings of the first USENIX workshop on Offensive Technologies",
+  series = 	 "WOOT '07",
+  publisher =    "USENIX Association",
+  address = 	 "Berkley, CA",
+  articleno = 	 "7",
+  numpages = 	 "9",
+  editor = 	 "",
+  volume = 	 "",
+  number = 	 "",
+  pages = 	 "",
+  month = 	 "",
+  organization = "",
+  note = 	 "",
+}
+
+@Inproceedings{VanGundy08,
+  author =       "Matthew Van Gundy and Davide Balzarotti and Giovanni Vigna",
+  year =         "2008",
+  title =        "Catch me, if you can: Evading network signatures with web-based polymorphic worms",
+  booktitle =    "Proceedings of the first USENIX workshop on Offensive Technologies",
+  series = 	 "WOOT '08",
+  publisher =    "USENIX Association",
+  address = 	 "Berkley, CA",
+  articleno = 	 "7",
+  numpages = 	 "2",
+  editor = 	 "",
+  volume = 	 "",
+  number = 	 "",
+  pages = 	 "99-100",
+  month = 	 "",
+  organization = "",
+  note = 	 "",
+}
+
+@Inproceedings{VanGundy09,
+  author =       "Matthew Van Gundy and Davide Balzarotti and Giovanni Vigna",
+  year =         "2009",
+  title =        "Catch me, if you can: Evading network signatures with web-based polymorphic worms",
+  booktitle =    "Proceedings of the first USENIX workshop on Offensive Technologies",
+  series = 	 "WOOT '09",
+  publisher =    "USENIX Association",
+  address = 	 "Berkley, CA",
+  articleno = 	 "",
+  numpages = 	 "",
+  editor = 	 "",
+  volume = 	 "",
+  number = 	 "",
+  pages = 	 "90--100",
+  month = 	 "",
+  organization = "",
+  note = 	 "",
+}
+
+@Inproceedings{Andler79,
+  author =       "Sten Andler",
+  title =        "Predicate Path expressions",
+  booktitle =    "Proceedings of the 6th. ACM SIGACT-SIGPLAN symposium on Principles of Programming Languages",
+  series = 	 "POPL '79",
+  year =         "1979",
+  publisher =    "ACM Press",
+  address = 	 "New York, NY",
+  pages =        "226--236",
+  doi = 	 "10.1145/567752.567774",
+  url = 	 "http://doi.acm.org/10.1145/567752.567774",
+  editor = 	 "",
+  volume = 	 "",
+  number = 	 "",
+  month = 	 "",
+  organization = "",
+  note = 	 "",
+}
+
+@Techreport{Harel78,
+  author =       "David Harel",
+  year =         "1978",
+  title =        "LOGICS of Programs: AXIOMATICS and DESCRIPTIVE POWER",
+  institution =  "Massachusetts Institute of Technology",
+  type =         "MIT Research Lab Technical Report",
+  number =       "TR-200",
+  address =      "Cambridge, MA",
+  month = 	 "",
+  note = 	 "",
+}
+
+@MASTERSTHESIS{anisi03,
+author = {David A. Anisi},
+title = {Optimal Motion Control of a Ground Vehicle},
+school = {Royal Institute of Technology (KTH), Stockholm, Sweden},
+intitution = {FOI-R-0961-SE, Swedish Defence Research Agency (FOI)},
+year = {2003},
+}
+
+
+@Phdthesis{Clarkson85,
+  author =       "Kenneth L. Clarkson",
+  year =         "1985",
+  title =        "Algorithms for Closest-Point Problems (Computational Geometry)",
+  school =       "Stanford University",
+  address =      "Palo Alto, CA",
+  note =         "UMI Order Number: AAT 8506171",
+  type = 	 "",
+  month = 	 "",
+}
+
+
+@misc{Thornburg01,
+  author =       "Harry Thornburg",
+  year =         "2001",
+  title =        "Introduction to Bayesian Statistics",
+  note =         "",
+  url =           "http://ccrma.stanford.edu/~jos/bayes/bayes.html",
+  howpublished = "",
+  month = 	 mar,
+  lastaccessed = "March 2, 2005",
+}
+
+
+@misc{Ablamowicz07,
+  author =       "Rafal Ablamowicz and Bertfried Fauser",
+  year =         "2007",
+  title =        "CLIFFORD: a Maple 11 Package for Clifford Algebra Computations, version 11",
+  note = 	 "",
+  url =          "http://math.tntech.edu/rafal/cliff11/index.html",
+  howpublished = "",
+  month = 	 "",
+  lastaccessed = "February 28, 2008",
+}
+
+@article{WANG2012152,
+	title = "Uncertainties in energy consumption introduced by building operations and weather for a medium-size office building",
+	journal = "Energy and Buildings",
+	volume = "53",
+	pages = "152 - 158",
+	year = "2012",
+	issn = "0378-7788",
+	doi = "https://doi.org/10.1016/j.enbuild.2012.06.017",
+	url = "http://www.sciencedirect.com/science/article/pii/S0378778812003052",
+	author = "Liping Wang and Paul Mathew and Xiufeng Pang",
+	keywords = "Building operations, Uncertainties, EnergyPlus, Monte Carlo analysis"
+}
+
+@article{PAN2007651,
+	title = "Calibrated building energy simulation and its application in a high-rise commercial building in Shanghai",
+	journal = "Energy and Buildings",
+	volume = "39",
+	number = "6",
+	pages = "651 - 657",
+	year = "2007",
+	issn = "0378-7788",
+	doi = "https://doi.org/10.1016/j.enbuild.2006.09.013",
+	url = "http://www.sciencedirect.com/science/article/pii/S0378778806002404",
+	author = "Yiqun Pan and Zhizhong Huang and Gang Wu",
+	keywords = "Calibrated simulation, Energy consumption, ECM"
+}
+
+@INPROCEEDINGS{7260948,
+	author={H. Chenglei and L. Kangji and L. Guohai and P. Lei},
+	booktitle={2015 34th Chinese Control Conference (CCC)},
+	title={Forecasting building energy consumption based on hybrid PSO-ANN prediction model},
+	year={2015},
+	volume={},
+	number={},
+	pages={8243-8247},
+	keywords={building management systems;energy consumption;load forecasting;neural nets;particle swarm optimisation;power engineering computing;building energy consumption forecasting;hybrid PSO-ANN prediction model;artificial neural networks;building energy prediction field;particle swarm optimization;principal component analysis;PCA;genetic algorithm;GA;Buildings;Artificial neural networks;Predictive models;Energy consumption;Accuracy;Data models;Principal component analysis;Particle Swarm Optimization;Artificial Neural Networks;Principal Component Analysis;Genetic Algorithm;Building Energy Prediction},
+	doi={10.1109/ChiCC.2015.7260948},
+	ISSN={1934-1768},
+	month={July},}
+
+@article{ROYAPOOR2015109,
+	title = "Building model calibration using energy and environmental data",
+	journal = "Energy and Buildings",
+	volume = "94",
+	pages = "109 - 120",
+	year = "2015",
+	issn = "0378-7788",
+	doi = "https://doi.org/10.1016/j.enbuild.2015.02.050",
+	url = "http://www.sciencedirect.com/science/article/pii/S0378778815001553",
+	author = "Mohammad Royapoor and Tony Roskilly",
+	keywords = "Model calibration, Measured energy data, Local weather data, Building performance simulation, Energy Plus, Hourly data, Sensor deployment, Case study building"
+}
+
+@article{ZHAO20123586,
+	title = "A review on the prediction of building energy consumption",
+	journal = "Renewable and Sustainable Energy Reviews",
+	volume = "16",
+	number = "6",
+	pages = "3586 - 3592",
+	year = "2012",
+	issn = "1364-0321",
+	doi = "https://doi.org/10.1016/j.rser.2012.02.049",
+	url = "http://www.sciencedirect.com/science/article/pii/S1364032112001438",
+	author = "Hai-xiang Zhao and Frédéric Magoulès",
+	keywords = "Prediction, Building, Energy consumption, Engineering methods, Statistical models, Artificial intelligence"
+}
+
+@INPROCEEDINGS{5301031,
+	author={F. Lei and P. Hu},
+	booktitle={2009 International Conference on Management and Service Science},
+	title={A Baseline Model for Office Building Energy Consumption in Hot Summer and Cold Winter Region},
+	year={2009},
+	volume={},
+	number={},
+	pages={1-4},
+	keywords={building management systems;energy conservation;energy consumption;baseline model;office building energy consumption;hot summer region;cold winter region;energy savings;energy retrofitting projects;energy management program;single variable linear model;outdoor dry bulb temperature;Energy consumption;Temperature;Energy measurement;Predictive models;Humidity;Solar radiation;Weather forecasting;Cities and towns;Buildings;Power engineering and energy},
+	doi={10.1109/ICMSS.2009.5301031},
+	ISSN={},
+	month={Sept},}
+
+
+@article{EKICI2009356,
+	title = "Prediction of building energy consumption by using artificial neural networks",
+	journal = "Advances in Engineering Software",
+	volume = "40",
+	number = "5",
+	pages = "356 - 362",
+	year = "2009",
+	issn = "0965-9978",
+	doi = "https://doi.org/10.1016/j.advengsoft.2008.05.003",
+	url = "http://www.sciencedirect.com/science/article/pii/S0965997808001105",
+	author = "Betul Bektas Ekici and U. Teoman Aksoy",
+	keywords = "ANN, Heating energy prediction, Insulation, Orientation"
+}
+
+@article{KUSIAK2010925,
+	title = "A data-driven approach for steam load prediction in buildings",
+	journal = "Applied Energy",
+	volume = "87",
+	number = "3",
+	pages = "925 - 933",
+	year = "2010",
+	issn = "0306-2619",
+	doi = "https://doi.org/10.1016/j.apenergy.2009.09.004",
+	url = "http://www.sciencedirect.com/science/article/pii/S0306261909003808",
+	author = "Andrew Kusiak and Mingyang Li and Zijun Zhang",
+	keywords = "Data mining, Building load estimation, Steam load prediction, Neural network ensemble, Energy forecasting, Monte Carlo simulation, Parameter selection"
+}
+
+@article{LI20092249,
+	title = "Applying support vector machine to predict hourly cooling load in the building",
+	journal = "Applied Energy",
+	volume = "86",
+	number = "10",
+	pages = "2249 - 2256",
+	year = "2009",
+	issn = "0306-2619",
+	doi = "https://doi.org/10.1016/j.apenergy.2008.11.035",
+	url = "http://www.sciencedirect.com/science/article/pii/S0306261908003176",
+	author = "Qiong Li and Qinglin Meng and Jiejin Cai and Hiroshi Yoshino and Akashi Mochida",
+	keywords = "Support vector machine, Building, Cooling load, Prediction, Artificial neural network"
+}
+
+@article{GUO20111273,
+	title = "A new approach to energy consumption prediction of domestic heat pump water heater based on grey system theory",
+	journal = "Energy and Buildings",
+	volume = "43",
+	number = "6",
+	pages = "1273 - 1279",
+	year = "2011",
+	issn = "0378-7788",
+	doi = "https://doi.org/10.1016/j.enbuild.2011.01.001",
+	url = "http://www.sciencedirect.com/science/article/pii/S0378778811000107",
+	author = "J.J. Guo and J.Y. Wu and R.Z. Wang",
+	keywords = "Domestic water heater, Energy consumption, Grey system theory"
+}
+
+@article{TSO20071761,
+	title = "Predicting electricity energy consumption: A comparison of regression analysis, decision tree and neural networks",
+	journal = "Energy",
+	volume = "32",
+	number = "9",
+	pages = "1761 - 1768",
+	year = "2007",
+	issn = "0360-5442",
+	doi = "https://doi.org/10.1016/j.energy.2006.11.010",
+	url = "http://www.sciencedirect.com/science/article/pii/S0360544206003288",
+	author = "Geoffrey K.F. Tso and Kelvin K.W. Yau",
+	keywords = "Data mining, Decision tree, Electricity energy consumption, Neural networks, Regression analysis"
+}
+
+@INPROCEEDINGS{5196994,
+	author={L. Xuemei and L. Jin-hu and D. Lixing and X. Gang and L. Jibin},
+	booktitle={2009 Asia-Pacific Conference on Information Processing},
+	title={Building Cooling Load Forecasting Model Based on LS-SVM},
+	year={2009},
+	volume={1},
+	number={},
+	pages={55-58},
+	keywords={air conditioning;backpropagation;least squares approximations;load forecasting;power engineering computing;support vector machines;building cooling load forecasting model;LS-SVM;historic method;real-time method;time series analysis;artificial neural networks;real-time traffic information prediction;prediction time efficiency;hourly cooling load prediction model;least square support vector machine;backpropagation neural network;BPNN;LSSVM;relative mean errors;root mean squared errors;Cooling;Load forecasting;Load modeling;Predictive models;Artificial neural networks;Information analysis;Time series analysis;Telecommunication traffic;Traffic control;Least squares methods;support vector regression;cooling load forecasting;energy-saving;optimal control},
+	doi={10.1109/APCIP.2009.22},
+	ISSN={},
+	month={July},}
+
+@INPROCEEDINGS{6606376,
+	author={D. Liu and Q. Chen},
+	booktitle={2013 9th Asian Control Conference (ASCC)},
+	title={Prediction of building lighting energy consumption based on support vector regression},
+	year={2013},
+	volume={},
+	number={},
+	pages={1-5},
+	keywords={building management systems;energy conservation;energy consumption;lighting;power engineering computing;radial basis function networks;regression analysis;support vector machines;building lighting energy consumption;support vector regression;energy conservation;nonlinear data regression problem;prediction model;radial basis function;prediction accuracy;neural networks;building hourly energy consumption;office building energy management plans;Energy consumption;Buildings;Predictive models;Artificial neural networks;Support vector machines;Training;Lighting;lighting energy consumption;building;support vector regression;prediction},
+	doi={10.1109/ASCC.2013.6606376},
+	ISSN={},
+	month={June},}
+
+@INPROCEEDINGS{5984356,
+	author={Y. K. Penya and C. E. Borges and D. Agote and I. Fernández},
+	booktitle={2011 IEEE International Symposium on Industrial Electronics},
+	title={Short-term load forecasting in air-conditioned non-residential Buildings},
+	year={2011},
+	volume={},
+	number={},
+	pages={1359-1364},
+	keywords={autoregressive moving average processes;Bayes methods;building management systems;energy consumption;HVAC;load forecasting;neural nets;time series;short-term load forecasting;air-conditioned nonresidential buildings;electricity sector;energy load prediction;modern buildings;energy consumption;fully-HVAC;heating;ventilating;air conditioning;training data;demand curve;work day schedule;day-type classifier;STLF systems;ARIMA;autoregressive integrated moving average time series;neural networks;autoregressive model time series;Bayesian network;Load modeling;Buildings;Data models;Artificial neural networks;Forecasting;Meteorology;Bayesian methods},
+	doi={10.1109/ISIE.2011.5984356},
+	ISSN={2163-5145},
+	month={June},}
+
+@INPROCEEDINGS{6059103,
+	author={I. Fernández and C. E. Borges and Y. K. Penya},
+	booktitle={ETFA2011},
+	title={Efficient building load forecasting},
+	year={2011},
+	volume={},
+	number={},
+	pages={1-8},
+	keywords={building;demand side management;load forecasting;smart power grids;building load forecasting;smart grid paradigm;smart metering;demand side management;load estimation;short-term load forecasting;nonexisting parametrisation;variable data learning window;diverse learning data weighting combinations;Buildings;Load modeling;Data models;Support vector machines;Predictive models;Load forecasting;Computational modeling},
+	doi={10.1109/ETFA.2011.6059103},
+	ISSN={1946-0759},
+	month={Sept},}
+
+@article{PLATON201510,
+	title = "Hourly prediction of a building's electricity consumption using case-based reasoning, artificial neural networks and principal component analysis",
+	journal = "Energy and Buildings",
+	volume = "92",
+	pages = "10 - 18",
+	year = "2015",
+	issn = "0378-7788",
+	doi = "https://doi.org/10.1016/j.enbuild.2015.01.047",
+	url = "http://www.sciencedirect.com/science/article/pii/S0378778815000651",
+	author = "Radu Platon and Vahid Raissi Dehkordi and Jacques Martel",
+	keywords = "Artificial neural networks, Case-based reasoning, Principal component analysis, Similarity, Predictive accuracy, Input selection, Building electricity consumption"
+}
+
+@inbook{doi:10.1061/9780784413616.208,
+	author = {R. K. Jain and T. Damoulas  and C. E. Kontokosta},
+	title = {Towards Data-Driven Energy Consumption Forecasting of Multi-Family Residential Buildings: Feature Selection via The Lasso},
+	booktitle = {Computing in Civil and Building Engineering (2014)},
+	chapter = {},
+	pages = {},
+	doi = {10.1061/9780784413616.208},
+	URL = {https://ascelibrary.org/doi/abs/10.1061/9780784413616.208},
+	eprint = {https://ascelibrary.org/doi/pdf/10.1061/9780784413616.208},
+	abstract = { Buildings constitute a large portion of energy consumption in the United States. Accurate forecasting of building energy consumption is integral to the implementation of energy efficiency initiatives and intermittent renewable energy supplies. The availability of high-resolution energy consumption data has allowed researchers to utilize machine learning techniques that forego domain-specific knowledge (e.g., building construction materials, geometric properties) to forecast energy consumption. While there is a growing body of literature surrounding the use of machines learning to forecast building energy consumption, previous research has yet to explore the use of feature selection to determine the most important subset of variables and produce interpretable predictive models. In this paper, we explore the use of Lasso, a shrinkage and selection method for linear regression that estimates sparse coefficients, to select the most important feature subset of a residential energy forecasting model. We evaluate the selected subset on an empirical data set from a multi-family residential building in New York City and compare the results to previous forecasting models without feature selection. Results of this work has implications on the data acquisition and sensing systems required to yield accurate predictions of residential energy consumption. }
+}
+
+@article{HOU20061033,
+	title = "Cooling-load prediction by the combination of rough set theory and an artificial neural-network based on data-fusion technique",
+	journal = "Applied Energy",
+	volume = "83",
+	number = "9",
+	pages = "1033 - 1046",
+	year = "2006",
+	issn = "0306-2619",
+	doi = "https://doi.org/10.1016/j.apenergy.2005.08.006",
+	url = "http://www.sciencedirect.com/science/article/pii/S0306261905001315",
+	author = "Zhijian Hou and Zhiwei Lian and Ye Yao and Xinjian Yuan",
+	keywords = "Cooling-load forecasting, Rough sets, Artificial neural-networks, Data-fusion technique"
+}
+
+@article{FAN20141,
+	title = "Development of prediction models for next-day building energy consumption and peak power demand using data mining techniques",
+	journal = "Applied Energy",
+	volume = "127",
+	pages = "1 - 10",
+	year = "2014",
+	issn = "0306-2619",
+	doi = "https://doi.org/10.1016/j.apenergy.2014.04.016",
+	url = "http://www.sciencedirect.com/science/article/pii/S0306261914003596",
+	author = "Cheng Fan and Fu Xiao and Shengwei Wang",
+	keywords = "Building energy prediction, Data mining, Feature extraction, Clustering analysis, Recursive feature elimination, Ensemble model"
+}
+
+@article{CHOU2014437,
+	title = "Modeling heating and cooling loads by artificial intelligence for energy-efficient building design",
+	journal = "Energy and Buildings",
+	volume = "82",
+	pages = "437 - 446",
+	year = "2014",
+	issn = "0378-7788",
+	doi = "https://doi.org/10.1016/j.enbuild.2014.07.036",
+	url = "http://www.sciencedirect.com/science/article/pii/S037877881400574X",
+	author = "Jui-Sheng Chou and Dac-Khuong Bui",
+	keywords = "Cooling load, Heating load, Energy performance, Energy-efficient building, Artificial intelligence, Data mining"
+}
+
+@article{EDWARDS2012591,
+	title = "Predicting future hourly residential electrical consumption: A machine learning case study",
+	journal = "Energy and Buildings",
+	volume = "49",
+	pages = "591 - 603",
+	year = "2012",
+	issn = "0378-7788",
+	doi = "https://doi.org/10.1016/j.enbuild.2012.03.010",
+	url = "http://www.sciencedirect.com/science/article/pii/S0378778812001582",
+	author = "Richard E. Edwards and Joshua New and Lynne E. Parker",
+	keywords = "Energy modeling, Sensors, Machine learning"
+}
+
+@article{LI200990,
+	title = "Predicting hourly cooling load in the building: A comparison of support vector machine and different artificial neural networks",
+	journal = "Energy Conversion and Management",
+	volume = "50",
+	number = "1",
+	pages = "90 - 96",
+	year = "2009",
+	issn = "0196-8904",
+	doi = "https://doi.org/10.1016/j.enconman.2008.08.033",
+	url = "http://www.sciencedirect.com/science/article/pii/S0196890408003154",
+	author = "Qiong Li and Qinglin Meng and Jiejin Cai and Hiroshi Yoshino and Akashi Mochida",
+	keywords = "Cooling load, Prediction, Support vector machine, Neural networks, Energy conservation"
+}
+
+@INPROCEEDINGS{5557576,
+	author={Qiong Li and Peng Ren and Qinglin Meng},
+	booktitle={2010 International Conference on Advances in Energy Engineering},
+	title={Prediction model of annual energy consumption of residential buildings},
+	year={2010},
+	volume={},
+	number={},
+	pages={223-226},
+	keywords={building management systems;energy consumption;neural nets;power engineering computing;regression analysis;support vector machines;residential buildings;China;support vector machine;traditional back propagation neural network;radial basis function neural network;general regression neural network;annual building energy consumption prediction model;Support vector machines;Buildings;Predictive models;Heating;Artificial neural networks;Load modeling;Cooling},
+	doi={10.1109/ICAEE.2010.5557576},
+	ISSN={},
+	month={June},}
+
+@inproceedings{Dagnely:2015:PHE:2964895.2964903,
+	author = {Dagnely, Pierre and Ruette, Tom and Tourw{\'e}, Tom and Tsiporkova, Elena and Verhelst, Clara},
+	title = {Predicting Hourly Energy Consumption. Can Regression Modeling Improve on an Autoregressive Baseline?},
+	booktitle = {Revised Selected Papers of the Third ECML PKDD Workshop on Data Analytics for Renewable Energy Integration - Volume 9518},
+	year = {2015},
+	isbn = {978-3-319-27429-4},
+	pages = {105--122},
+	numpages = {18},
+	url = {https://doi.org/10.1007/978-3-319-27430-0_8},
+	doi = {10.1007/978-3-319-27430-0_8},
+	acmid = {2964903},
+	publisher = {Springer-Verlag},
+	address = {Berlin, Heidelberg},
+	keywords = {Autoregressive models, Energy consumption prediction, Ordinary least squares regression, Support vector regression},
+} 
+
+@article{MASSANA2015322,
+	title = "Short-term load forecasting in a non-residential building contrasting models and attributes",
+	journal = "Energy and Buildings",
+	volume = "92",
+	pages = "322 - 330",
+	year = "2015",
+	issn = "0378-7788",
+	doi = "https://doi.org/10.1016/j.enbuild.2015.02.007",
+	url = "http://www.sciencedirect.com/science/article/pii/S0378778815001024",
+	author = "Joaquim Massana and Carles Pous and Llorenç Burgas and Joaquim Melendez and Joan Colomer",
+	keywords = "Load forecasting, Multilayer perceptron, Regression, Neural networks, Support vector machines, Measured data, Mediterranean climate"
+}
+
+@article{CHOU2014400,
+	title = "Real-time detection of anomalous power consumption",
+	journal = "Renewable and Sustainable Energy Reviews",
+	volume = "33",
+	pages = "400 - 411",
+	year = "2014",
+	issn = "1364-0321",
+	doi = "https://doi.org/10.1016/j.rser.2014.01.088",
+	url = "http://www.sciencedirect.com/science/article/pii/S1364032114001142",
+	author = "Jui-Sheng Chou and Abdi Suryadinata Telaga",
+	keywords = "Power consumption, Big data analytics, Anomaly detection, Pattern recognition, Real time detection, Time series prediction"
+}
+
+@article{CAPOZZOLI20154324,
+	title = "Fault detection analysis using data mining techniques for a cluster of smart office buildings",
+	journal = "Expert Systems with Applications",
+	volume = "42",
+	number = "9",
+	pages = "4324 - 4338",
+	year = "2015",
+	issn = "0957-4174",
+	doi = "https://doi.org/10.1016/j.eswa.2015.01.010",
+	url = "http://www.sciencedirect.com/science/article/pii/S0957417415000251",
+	author = "Alfonso Capozzoli and Fiorella Lauro and Imran Khan",
+	keywords = "Smart building, ANN, Pattern recognition, Fault detection"
+}
+
+@Article{en6042110,
+	AUTHOR = {Borges, Cruz E. and Penya, Yoseba K. and Fernández, Iván and Prieto, Juan and Bretos, Oscar},
+	TITLE = {Assessing Tolerance-Based Robust Short-Term Load Forecasting in Buildings},
+	JOURNAL = {Energies},
+	VOLUME = {6},
+	YEAR = {2013},
+	NUMBER = {4},
+	PAGES = {2110--2129},
+	URL = {http://www.mdpi.com/1996-1073/6/4/2110},
+	ISSN = {1996-1073},
+	ABSTRACT = {Short-term load forecasting (STLF) in buildings differs from its broader counterpart in that the load to be predicted does not seem to be stationary, seasonal and regular but, on the contrary, it may be subject to sudden changes and variations on its consumption behaviour. Classical STLF methods do not react fast enough to these perturbations (i.e., they are not robust) and the literature on building STLF has not yet explored this area. Hereby, we evaluate a well-known post-processing method (Learning Window Reinitialization) applied to two broadly-used STLF algorithms (Autoregressive Model and Support Vector Machines) in buildings to check their adaptability and robustness. We have tested the proposed method with real-world data and our results state that this methodology is especially suited for buildings with non-regular consumption profiles, as classical STLF methods are enough to model regular-profiled ones.},
+	DOI = {10.3390/en6042110}
+}
+
+@article{FAN20181123,
+	title = "Analytical investigation of autoencoder-based methods for unsupervised anomaly detection in building energy data",
+	journal = "Applied Energy",
+	volume = "211",
+	pages = "1123 - 1135",
+	year = "2018",
+	issn = "0306-2619",
+	doi = "https://doi.org/10.1016/j.apenergy.2017.12.005",
+	url = "http://www.sciencedirect.com/science/article/pii/S0306261917317166",
+	author = "Cheng Fan and Fu Xiao and Yang Zhao and Jiayuan Wang",
+	keywords = "Autoencoder, Unsupervised data analytics, Anomaly detection, Building operational performance, Building energy management"
+}
+
+{\"o}
+
+@INPROCEEDINGS{8109399,
+	author={J. H{\"o}chst and L. Baumgärtner and M. Hollick and B. Freisleben},
+	booktitle={2017 IEEE 42nd Conference on Local Computer Networks (LCN)},
+	title={Unsupervised Traffic Flow Classification Using a Neural Autoencoder},
+	year={2017},
+	volume={},
+	number={},
+	pages={523-526},
+	keywords={learning (artificial intelligence);mobile communication;mobile computing;pattern classification;pattern clustering;telecommunication computing;telecommunication traffic;unsupervised traffic flow classification;neural autoencoder;varying delay;bandwidth requirements;mobile wireless networks;port-based classification methods;FTP traffic;neural auto encoder;time interval based feature vector construction;semiautomatic cluster labeling method;known traffic classes;mobile traffic flows;mobile application traffic;nonstandard ports;supervised learning methods;statistical properties;Protocols;Labeling;Bandwidth;Mobile communication;Ports (Computers);Streaming media;Servers;Autoencoder;Traffic flow classification;Unsupervised learning},
+	doi={10.1109/LCN.2017.57},
+	ISSN={0742-1303},
+	month={Oct},}
+
+
+@ARTICLE{7983338,
+	author={Y. Qi and C. Shen and D. Wang and J. Shi and X. Jiang and Z. Zhu},
+	journal={IEEE Access},
+	title={Stacked Sparse Autoencoder-Based Deep Network for Fault Diagnosis of Rotating Machinery},
+	year={2017},
+	volume={5},
+	number={},
+	pages={15066-15079},
+	keywords={autoregressive processes;encoding;fault diagnosis;feature extraction;learning (artificial intelligence);machining;mechanical engineering computing;neural nets;signal processing;stacked sparse autoencoder;SAE;deep network;rotating machinery;machine fault diagnosis;deep learning;machine learning;feature extraction;nonstationary signals;transient signals;ensemble empirical mode decomposition;autoregressive model;AR;intrinsic mode functions;IMF;shallow architectures;Feature extraction;Fault diagnosis;Machinery;Machine learning;Support vector machines;Data mining;Learning systems;Sparse autoencoder;ensemble empirical mode decomposition;autoregressive model;fault diagnosis},
+	doi={10.1109/ACCESS.2017.2728010},
+	ISSN={2169-3536},
+	month={},}
+
+@article{doi:10.1080/00031305.1978.10479236,
+	author = { Robert   Mcgill  and  John W.   Tukey  and  Wayne A.   Larsen },
+	title = {Variations of Box Plots},
+	journal = {The American Statistician},
+	volume = {32},
+	number = {1},
+	pages = {12-16},
+	year  = {1978},
+	publisher = {Taylor & Francis},
+	doi = {10.1080/00031305.1978.10479236},
+	
+	URL = { 
+	https://amstat.tandfonline.com/doi/abs/10.1080/00031305.1978.10479236
+	
+	},
+	eprint = { 
+	https://amstat.tandfonline.com/doi/pdf/10.1080/00031305.1978.10479236
+	
+	}
+	
+}
+
+
+@misc{Poker06,
+  author =       "Poker-Edge.Com",
+  year =         "2006",
+  month 	= mar,
+  title =        "Stats and Analysis",
+  lastaccessed = "June 7, 2006",
+  url =          "http://www.poker-edge.com/stats.php",
+  howpublished = "",
+}
+
+@misc{Obama08,
+  author 	= "Barack Obama",
+  year 		= "2008",
+  title		= "A more perfect union",
+  howpublished  = "Video",
+  day 		= "5",
+  url 		= "http://video.google.com/videoplay?docid=6528042696351994555",
+  month 	= mar,
+  lastaccessed  = "March 21, 2008",
+  note		=  "",
+}
+
+@misc{JoeScientist001,
+  author =       "Joseph Scientist",
+  year =         "2009",
+  title =        "The fountain of youth",
+  note =         "Patent No. 12345, Filed July 1st., 2008, Issued Aug. 9th., 2009",
+  url =           "",
+  howpublished = "",
+  month = 	 aug,
+  lastaccessed = "",
+}
+
+
+@Inproceedings{Novak03,
+  author =       "Dave Novak",
+  title =        "Solder man",
+  booktitle =    "ACM SIGGRAPH 2003 Video Review on Animation theater Program: Part I - Vol. 145 (July 27--27, 2003)",
+  year =         "2003",
+  publisher = 	 "ACM Press",
+  address = 	 "New York, NY",
+  pages =        "4",
+  month = 	 "March 21, 2008",
+  doi = 	 "99.9999/woot07-S422",
+  url = 	 "http://video.google.com/videoplay?docid=6528042696351994555",
+  note = 	 "",
+  howpublished = "Video",
+  editor = 	 "",
+  volume = 	 "",
+  number = 	 "",
+  series = 	 "",
+  organization = "",
+}
+
+
+@article{Lee05,
+  author =       "Newton Lee",
+  year = 	 "2005",
+  title =        "Interview with Bill Kinder: January 13, 2005",
+  journal = 	 "Comput. Entertain.",
+  articleno =     "4",
+  volume =       "3",
+  number = 	 "1",
+  month =  	 "Jan.-March",
+  doi = 	 "10.1145/1057270.1057278",
+  url = 	 "http://doi.acm.org/10.1145/1057270.1057278",
+  howpublished = "Video",
+  note =	 "",
+}
+
+@article{Rous08,
+  author =       "Bernard Rous",
+  year = 	 "2008",
+  title =        "The Enabling of Digital Libraries",
+  journal = 	 "Digital Libraries",
+  volume =       "12",
+  number = 	 "3",
+  month =  	 jul,
+  articleno = 	 "5",
+  doi = 	 "",
+  url = 	 "",
+  howpublished = "",
+  note =	 "To appear",
+}
+
+@article{384253,
+ author = {Werneck,, Renato and Setubal,, Jo\~{a}o and da Conceic\~{a}o,, Arlindo},
+ title = {(old) Finding minimum congestion spanning trees},
+ journal = {J. Exp. Algorithmics},
+ volume = {5},
+ year = {2000},
+ issn = {1084-6654},
+ pages = {11},
+ doi = {http://doi.acm.org/10.1145/351827.384253},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+
+
+@article{Werneck:2000:FMC:351827.384253,
+ author = {Werneck, Renato and Setubal, Jo\~{a}o and da Conceic\~{a}o, Arlindo},
+ title = {(new) Finding minimum congestion spanning trees},
+ journal = {J. Exp. Algorithmics},
+ volume = {5},
+ month = dec,
+ year = {2000},
+ issn = {1084-6654},
+ articleno = {11},
+ url = {http://portal.acm.org/citation.cfm?id=351827.384253},
+ doi = {10.1145/351827.384253},
+ acmid = {384253},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+@article{1555162,
+ author = {Conti, Mauro and Di Pietro, Roberto and Mancini, Luigi V. and Mei, Alessandro},
+ title = {(old) Distributed data source verification in wireless sensor networks},
+ journal = {Inf. Fusion},
+ volume = {10},
+ number = {4},
+ year = {2009},
+ issn = {1566-2535},
+ pages = {342--353},
+ doi = {http://dx.doi.org/10.1016/j.inffus.2009.01.002},
+ publisher = {Elsevier Science Publishers B. V.},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+ }
+
+@article{Conti:2009:DDS:1555009.1555162,
+ author = {Conti, Mauro and Di Pietro, Roberto and Mancini, Luigi V. and Mei, Alessandro},
+ title = {(new) Distributed data source verification in wireless sensor networks},
+ journal = {Inf. Fusion},
+ volume = {10},
+ number = {4},
+ month = oct,
+ year = {2009},
+ issn = {1566-2535},
+ pages = {342--353},
+ numpages = {12},
+ url = {http://portal.acm.org/citation.cfm?id=1555009.1555162},
+ doi = {10.1016/j.inffus.2009.01.002},
+ acmid = {1555162},
+ publisher = {Elsevier Science Publishers B. V.},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+ keywords = {Clone detection, Distributed protocol, Securing data fusion, Wireless sensor networks},
+}
+
+@inproceedings{Li:2008:PUC:1358628.1358946,
+ author = {Li, Cheng-Lun and Buyuktur, Ayse G. and Hutchful, David K. and Sant, Natasha B. and Nainwal, Satyendra K.},
+ title = {Portalis: using competitive online interactions to support aid initiatives for the homeless},
+ booktitle = {CHI '08 extended abstracts on Human factors in computing systems},
+ year = {2008},
+ isbn = {978-1-60558-012-X},
+ location = {Florence, Italy},
+ pages = {3873--3878},
+ numpages = {6},
+ url = {http://portal.acm.org/citation.cfm?id=1358628.1358946},
+ doi = {10.1145/1358628.1358946},
+ acmid = {1358946},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {cscw, distributed knowledge acquisition, incentive design, online games, recommender systems, reputation systems, user studies, virtual community},
+}
+
+@book{Hollis:1999:VBD:519964,
+ author = {Hollis, Billy S.},
+ title = {Visual Basic 6: Design, Specification, and Objects with Other},
+ year = {1999},
+ isbn = {0130850845},
+ edition = {1st},
+ publisher = {Prentice Hall PTR},
+ address = {Upper Saddle River, NJ, USA},
+ }
+
+
+@book{Goossens:1999:LWC:553897,
+ author = {Goossens, Michel and Rahtz, S. P. and Moore, Ross and Sutor, Robert S.},
+ title = {The  Latex Web Companion: Integrating TEX, HTML, and XML},
+ year = {1999},
+ isbn = {0201433117},
+ edition = {1st},
+ publisher = {Addison-Wesley Longman Publishing Co., Inc.},
+ address = {Boston, MA, USA},
+ }
+
+% need to test genres for errant isbn output
+
+% techreport
+@techreport{897367,
+ author = {Buss, Jonathan F. and Rosenberg, Arnold L. and Knott, Judson D.},
+ title = {Vertex Types in Book-Embeddings},
+ year = {1987},
+ source = {http://www.ncstrl.org:8900/ncstrl/servlet/search?formname=detail\&id=oai%3Ancstrlh%3Aumass_cs%3Ancstrl.umassa_cs%2F%2FUM-CS-1987-018},
+ publisher = {University of Massachusetts},
+ address = {Amherst, MA, USA},
+ }
+
+@techreport{Buss:1987:VTB:897367,
+ author = {Buss, Jonathan F. and Rosenberg, Arnold L. and Knott, Judson D.},
+ title = {Vertex Types in Book-Embeddings},
+ year = {1987},
+ source = {http://www.ncstrl.org:8900/ncstrl/servlet/search?formname=detail\&id=oai%3Ancstrlh%3Aumass_cs%3Ancstrl.umassa_cs%2F%2FUM-CS-1987-018},
+ publisher = {University of Massachusetts},
+ address = {Amherst, MA, USA},
+ }
+
+% whole proceedings
+
+@proceedings{Czerwinski:2008:1358628,
+ author = {},
+ note = {General Chair-Czerwinski, Mary and General Chair-Lund, Arnie and Program Chair-Tan, Desney},
+ title = {CHI '08: CHI '08 extended abstracts on Human factors in computing systems},
+ year = {2008},
+ isbn = {978-1-60558-012-X},
+ location = {Florence, Italy},
+ order_no = {608085},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+
+% phdthesis
+
+@phdthesis{Clarkson:1985:ACP:911891,
+ author = {Clarkson, Kenneth Lee},
+ advisor = {Yao, Andrew C.},
+ title = {Algorithms for Closest-Point Problems (Computational Geometry)},
+ year = {1985},
+ note = {AAT 8506171},
+ school = {Stanford University},
+ address = {Stanford, CA, USA},
+ }
+% school is being picked up -- but not publisher (which is OK)
+% Also -- the title is NOT being output in italics !!! Arrrrgh! - I fixed it. :-)
+
+
+%%% compare with 'old' 
+%%% atsign-Phdthesis{Clarkson85,
+%%%  author =       "Kenneth L. Clarkson",
+%%%  year =         "1985",
+%%%  title =        "Algorithms for Closest-Point Problems (Computational Geometry)",
+%%%  school =       "Stanford University",
+%%%  address =      "Palo Alto, CA",
+%%%  note =         "UMI Order Number: AAT 8506171",
+%%%  type = 	 "",
+%%%  month = 	 "",
+%%%}
+
+% A bibliography
+@Article{1984:1040142,
+ key = {{$\!\!$}},
+ journal = {SIGCOMM Comput. Commun. Rev.},
+ year = {1984},
+ issn = {0146-4833},
+ volume = {13-14},
+ number = {5-1},
+ issue_date = {January/April 1984},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+
+
+% grinder
+@inproceedings{2004:ITE:1009386.1010128,
+ title = {IEEE TCSC Executive Committee},
+ booktitle = {Proceedings of the IEEE International Conference on Web Services},
+ series = {ICWS '04},
+ year = {2004},
+ isbn = {0-7695-2167-3},
+ pages = {.21--},
+ url = {http://dx.doi.org/10.1109/ICWS.2004.64},
+ doi = {http://dx.doi.org/10.1109/ICWS.2004.64},
+ acmid = {1010128},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+key = {{$\!\!$}} ,
+}
+
+% div book
+@book{Mullender:1993:DS(:302430,
+ editor = {Mullender, Sape},
+ title = {Distributed systems (2nd Ed.)},
+ year = {1993},
+ isbn = {0-201-62427-3},
+ publisher = {ACM Press/Addison-Wesley Publishing Co.},
+ address = {New York, NY, USA},
+ }
+
+% master thesis (as techreport and thesis)
+
+@techreport{Petrie:1986:NAD:899644,
+ author = {Petrie, Charles J.},
+ title = {New Algorithms for Dependency-Directed Backtracking (Master's thesis)},
+ year = {1986},
+ source = {http://www.ncstrl.org:8900/ncstrl/servlet/search?formname=detail\&id=oai%3Ancstrlh%3Autexas_cs%3AUTEXAS_CS%2F%2FAI86-33},
+ publisher = {University of Texas at Austin},
+ address = {Austin, TX, USA},
+ }
+
+@MASTERSTHESIS{Petrie:1986:NAD:12345,
+ author = {Petrie, Charles J.},
+ title = {New Algorithms for Dependency-Directed Backtracking (Master's thesis)},
+ year = {1986},
+ source = {http://www.ncstrl.org:8900/ncstrl/servlet/search?formname=detail\&id=oai%3Ancstrlh%3Autexas_cs%3AUTEXAS_CS%2F%2FAI86-33},
+ school = {University of Texas at Austin},
+ address = {Austin, TX, USA},
+ }
+
+
+
+
+@BOOK{book-minimal,
+   author = "Donald E. Knuth",
+   title = "Seminumerical Algorithms",
+   publisher = "Addison-Wesley",
+   year = "1981",
+}
+
+% incollection (has an editor, title, and possibly a booktitle)
+@INcollection{KA:2001,
+ author = {Kong, Wei-Chang},
+ Title = {The implementation of electronic commerce in SMEs in Singapore (as Incoll)},
+ booktitle = {E-commerce and cultural values},
+ year = {2001},
+ isbn = {1-59140-056-2},
+ pages = {51--74},
+ numpages = {24},
+ url = {http://portal.acm.org/citation.cfm?id=887006.887010},
+ acmid = {887010},
+ publisher = {IGI Publishing},
+ address = {Hershey, PA, USA},
+}
+
+
+% with bibfield 'type' before chapter (note no editor)
+@INBOOK{KAGM:2001,
+ author = {Kong, Wei-Chang},
+ type = {Name of Chapter:},
+ chapter = {The implementation of electronic commerce in SMEs in Singapore (Inbook-w-chap-w-type)},
+ title = {E-commerce and cultural values},
+ year = {2001},
+ isbn = {1-59140-056-2},
+ pages = {51--74},
+ numpages = {24},
+ url = {http://portal.acm.org/citation.cfm?id=887006.887010},
+ acmid = {887010},
+ publisher = {IGI Publishing},
+ address = {Hershey, PA, USA},
+}
+
+%%% Notes! This is because the atsign-INBOOK citation type specifies EITHER
+%%% editor or author, but not both. In my experiments with the harvard/dcu
+%%% bibtex style (and presumably this applies to other styles too), bibtex
+%%% ignores the editor information if author information exists in an
+%%% atsign-INBOOK entry. atsign-INCOLLECTION is far more commonly used in my references,
+%%% and in the absence of an editor I believe most bibtex styles will just
+%%% ommit the editor from the reference - the chapter information will not
+%%% end up in the in-text citation as you suggest it should be but at least
+%%% there is a place to put the editor if necessary.
+
+
+
+% was 'Inbook' -- changed to incollection - (editor is different to author) - need to tell Asad to codify as such.
+@incollection{Kong:2002:IEC:887006.887010,
+  author = 	{Kong, Wei-Chang},
+  editor =	{Theerasak Thanasankit},
+  title =	{Chapter 9},
+  booktitle =	{E-commerce and cultural values (Incoll-w-text (chap 9) 'title')},
+  year =	{2002},
+  address =	{Hershey, PA, USA},
+  publisher =	{IGI Publishing},
+  url =		{http://portal.acm.org/citation.cfm?id=887006.887010},
+  pages =	{51--74},
+  numpages =	{24},
+  acmid =	{887010},
+  isbn =	{1-59140-056-2},
+  number = 	 "",
+  type = 	 "",
+  month = 	 "",
+  note = 	 "",
+}
+
+% incol when the chapter is 'text' - due to presence of editor (different to author)
+@incollection{Kong:2003:IEC:887006.887011,
+ author = {Kong, Wei-Chang},
+ title = {The implementation of electronic commerce in SMEs in Singapore (Incoll)},
+ booktitle = {E-commerce and cultural values},
+ editor = {Thanasankit, Theerasak},
+ year = {2003},
+ isbn = {1-59140-056-2},
+ pages = {51--74},
+ numpages = {24},
+ url = {http://portal.acm.org/citation.cfm?id=887006.887010},
+ acmid = {887010},
+ publisher = {IGI Publishing},
+ address = {Hershey, PA, USA},
+}
+
+% ------ test
+%incollection{Kong:2003:IEC:887006.887010,
+% author = {Kong, Wei-Chang},
+% chapter = {The implementation of electronic commerce in SMEs in Singapore (Incoll-text-in-chap)},
+% booktitle = {booktitle E-commerce and cultural values},
+% title =   {The title},
+% editor = {Thanasankit, Theerasak},
+% year = {2003},
+% isbn = {1-59140-056-2},
+% pages = {51--74},
+% numpages = {24},
+% url = {http://portal.acm.org/citation.cfm?id=887006.887010},
+% acmid = {887010},
+% publisher = {IGI Publishing},
+% address = {Hershey, PA, USA},
+%}
+
+
+% ---------
+
+
+
+
+
+% Need inbook with num in chapter
+
+% and inbook with number in chapter
+@InBook{Kong:2004:IEC:123456.887010,
+  author = 	{Kong, Wei-Chang},
+  editor =	{Theerasak Thanasankit},
+  title =	{E-commerce and cultural values - (InBook-num-in-chap)},
+  chapter =	{9},
+  year =	{2004},
+  address =	{Hershey, PA, USA},
+  publisher =	{IGI Publishing},
+  url =		{http://portal.acm.org/citation.cfm?id=887006.887010},
+  pages =	{51--74},
+  numpages =	{24},
+  acmid =	{887010},
+  isbn =	{1-59140-056-2},
+  number = 	 "",
+  type = 	 "",
+  month = 	 "",
+  note = 	 "",
+}
+
+
+% and inbook with text in chapter
+@Inbook{Kong:2005:IEC:887006.887010,
+  author = 	{Kong, Wei-Chang},
+  editor =	{Theerasak Thanasankit},
+  title =	{E-commerce and cultural values (Inbook-text-in-chap)},
+  chapter =	{The implementation of electronic commerce in SMEs in Singapore},
+  year =	{2005},
+  address =	{Hershey, PA, USA},
+  publisher =	{IGI Publishing},
+  url =		{http://portal.acm.org/citation.cfm?id=887006.887010},
+  type =        {Chapter:},
+  pages =	{51--74},
+  numpages =	{24},
+  acmid =	{887010},
+  isbn =	{1-59140-056-2},
+  number = 	 "",
+  month = 	 "",
+  note = 	 "",
+}
+
+
+% and inbook with a num and type field
+@Inbook{Kong:2006:IEC:887006.887010,
+  author = 	{Kong, Wei-Chang},
+  editor =	{Theerasak Thanasankit},
+  title =	{E-commerce and cultural values (Inbook-num chap)},
+  chapter =	{22},
+  year =	{2006},
+  address =	{Hershey, PA, USA},
+  publisher =	{IGI Publishing},
+  url =		{http://portal.acm.org/citation.cfm?id=887006.887010},
+  type =        {Chapter (in type field)},
+  pages =	{51--74},
+  numpages =	{24},
+  acmid =	{887010},
+  isbn =	{1-59140-056-2},
+  number = 	 "",
+  month = 	 "",
+  note = 	 "",
+}
+
+
+% and incol coz we have a BLANK chapter - due to presence of editor
+%atIncollection{Kong:2006:IEC:887006.887011,
+%  author = 	{Kong, Wei-Chang},
+%  editor =	{Theerasak Thanasankit},
+%  title =       "The title"
+%  booktitle =	{E-commerce and cultural values (Incol-coz-blank-chap)},
+%  year =	{2006},
+%  address =	{Hershey, PA, USA},
+%  publisher =	{IGI Publishing},
+%  url =		{http://portal.acm.org/citation.cfm?id=887006.887010},
+%  type =        {Type!},
+%  chapter =	{},
+%  pages =	{51--74},
+%  numpages =	{24},
+%  acmid =	{887010},
+%  isbn =	{1-59140-056-2},
+%  number = 	 "",
+%  month = 	 "",
+%  note = 	 "",
+%}
+
+@article{SaeediMEJ10,
+            author = {Mehdi Saeedi and Morteza Saheb Zamani and Mehdi Sedighi},
+            title = {A library-based synthesis methodology for reversible logic},
+            journal = {Microelectron. J.},
+            volume = {41},
+            number = {4},
+            month = apr,
+            year = {2010},
+            pages = {185--194},
+}
+
+@ARTICLE{SaeediJETC10,
+            author = {Mehdi Saeedi and Morteza Saheb Zamani and Mehdi Sedighi and Zahra Sasanian},
+            title = {Synthesis of Reversible Circuit Using Cycle-Based Approach},
+            journal = {J. Emerg. Technol. Comput. Syst.},
+            volume = {6},
+            number = {4},
+            month = dec,
+            year = {2010}
+            }
+
+% Asad's new version
+@article{Kirschmer:2010:AEI:1958016.1958018,
+ author = {Kirschmer, Markus and Voight, John},
+ title = {Algorithmic Enumeration of Ideal Classes for Quaternion Orders},
+ journal = {SIAM J. Comput.},
+ issue_date = {January 2010},
+ volume = {39},
+ number = {5},
+ month = jan,
+ year = {2010},
+ issn = {0097-5397},
+ pages = {1714--1747},
+ numpages = {34},
+ url = {http://dx.doi.org/10.1137/080734467},
+ doi = {http://dx.doi.org/10.1137/080734467},
+ acmid = {1958018},
+ publisher = {Society for Industrial and Applied Mathematics},
+ address = {Philadelphia, PA, USA},
+ keywords = {ideal classes, maximal orders, number theory, quaternion algebras},
+}
+
+
+% incol due to presence of booktitle
+@incollection{Hoare:1972:CIN:1243380.1243382,
+ author = {Hoare, C. A. R.},
+ title = {Chapter II: Notes on data structuring},
+ booktitle = {Structured programming (incoll)},
+ editor = {Dahl, O. J. and Dijkstra, E. W. and Hoare, C. A. R.},
+ year = {1972},
+ isbn = {0-12-200550-3},
+ pages = {83--174},
+ numpages = {92},
+ url = {http://portal.acm.org/citation.cfm?id=1243380.1243382},
+ acmid = {1243382},
+ publisher = {Academic Press Ltd.},
+ address = {London, UK, UK},
+} 
+
+% incol due to presence of booktitle
+@incollection{Lee:1978:TQA:800025.1198348,
+ author = {Lee, Jan},
+ title = {Transcript of question and answer session},
+ booktitle = {History of programming languages I (incoll)},
+ editor = {Wexelblat, Richard L.},
+ year = {1981},
+ isbn = {0-12-745040-8},
+ pages = {68--71},
+ numpages = {4},
+ url = {http://doi.acm.org/10.1145/800025.1198348},
+ doi = {http://doi.acm.org/10.1145/800025.1198348},
+ acmid = {1198348},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+% incol due to booktitle
+@incollection{Dijkstra:1979:GSC:1241515.1241518,
+ author = {Dijkstra, E.},
+ title = {Go to statement considered harmful},
+ booktitle = {Classics in software engineering (incoll)},
+ year = {1979},
+ isbn = {0-917072-14-6},
+ pages = {27--33},
+ numpages = {7},
+ url = {http://portal.acm.org/citation.cfm?id=1241515.1241518},
+ acmid = {1241518},
+ publisher = {Yourdon Press},
+ address = {Upper Saddle River, NJ, USA},
+} 
+
+% incol due to booktitle
+@incollection{Wenzel:1992:TVA:146022.146089,
+ author = {Wenzel, Elizabeth M.},
+ title = {Three-dimensional virtual acoustic displays},
+ booktitle = {Multimedia interface design (incoll)},
+ year = {1992},
+ isbn = {0-201-54981-6},
+ pages = {257--288},
+ numpages = {32},
+ url = {http://portal.acm.org/citation.cfm?id=146022.146089},
+ doi = {10.1145/146022.146089},
+ acmid = {146089},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+% incol due to booktitle
+@incollection{Mumford:1987:MES:54905.54911,
+ author = {Mumford, E.},
+ title = {Managerial expert systems and organizational change: some critical research issues},
+ booktitle = {Critical issues in information systems research (incoll)},
+ year = {1987},
+ isbn = {0-471-91281-6},
+ pages = {135--155},
+ numpages = {21},
+ url = {http://portal.acm.org/citation.cfm?id=54905.54911},
+ acmid = {54911},
+ publisher = {John Wiley \& Sons, Inc.},
+ address = {New York, NY, USA},
+} 
+
+@book{McCracken:1990:SSC:575315,
+ author = {McCracken, Daniel D. and Golden, Donald G.},
+ title = {Simplified Structured COBOL with Microsoft/MicroFocus COBOL},
+ year = {1990},
+ isbn = {0471514071},
+ publisher = {John Wiley \& Sons, Inc.},
+ address = {New York, NY, USA},
+} 
+
+% Let's include Boris / BBeeton entries  (multi-volume works)
+
+@book {MR781537,
+    AUTHOR = {H{\"o}rmander, Lars},
+     TITLE = {The analysis of linear partial differential operators. {III}},
+    SERIES = {Grundlehren der Mathematischen Wissenschaften [Fundamental
+              Principles of Mathematical Sciences]},
+    VOLUME = {275},
+      NOTE = {Pseudodifferential operators},  
+PUBLISHER = {Springer-Verlag},
+   ADDRESS = {Berlin, Germany},
+      YEAR = {1985},
+     PAGES = {viii+525},
+      ISBN = {3-540-13828-5},
+   MRCLASS = {35-02 (35Sxx 47G05 58G15)},
+  MRNUMBER = {781536 (87d:35002a)},
+MRREVIEWER = {Min You Qi},
+}
+
+@book {MR781536,
+    AUTHOR = {H{\"o}rmander, Lars},
+     TITLE = {The analysis of linear partial differential operators. {IV}},
+    SERIES = {Grundlehren der Mathematischen Wissenschaften [Fundamental
+              Principles of Mathematical Sciences]},
+    VOLUME = {275},
+      NOTE = {Fourier integral operators},  
+PUBLISHER = {Springer-Verlag},
+   ADDRESS = {Berlin, Germany},
+      YEAR = {1985},
+     PAGES = {vii+352},
+      ISBN = {3-540-13829-3},
+   MRCLASS = {35-02 (35Sxx 47G05 58G15)},
+  MRNUMBER = {781537 (87d:35002b)},
+MRREVIEWER = {Min You Qi},
+}
+
+%%%%%%%%%%%%%%%%%%%%%% Start of Aptara sample bib entries
+
+% acmsmall-sam.bib
+@InProceedings{Adya-01,
+  author        = {A. Adya and P. Bahl and J. Padhye and A.Wolman and L. Zhou},
+  title         = {A multi-radio unification protocol for {IEEE} 802.11 wireless networks},
+  booktitle     = {Proceedings of the IEEE 1st International Conference on Broadnets Networks (BroadNets'04)},
+  publisher     = "IEEE",
+  address       = "Los Alamitos, CA",		  
+  year          = {2004},
+  pages         = "210--217"
+}
+
+@article{Akyildiz-01,
+  author        = {I. F. Akyildiz and W. Su and Y. Sankarasubramaniam and E. Cayirci},
+  title         = {Wireless Sensor Networks: A Survey},
+  journal       = {Comm. ACM},
+  volume        = 38,
+  number        = "4",
+  year          = {2002},
+  pages         = "393--422"
+}
+
+@article{Akyildiz-02,
+  author        = {I. F. Akyildiz and T. Melodia and K. R. Chowdhury},
+  title         = {A Survey on Wireless Multimedia Sensor Networks},
+  journal       = {Computer Netw.},
+  volume        = 51,
+  number        = "4",
+  year          = {2007},
+  pages         = "921--960"
+}
+
+@InProceedings{Bahl-02,
+  author        = {P. Bahl and R. Chancre and J. Dungeon},
+  title         = {{SSCH}: Slotted Seeded Channel Hopping for Capacity Improvement in {IEEE} 802.11 Ad-Hoc Wireless Networks},
+  booktitle     = {Proceeding of the 10th International Conference on Mobile Computing and Networking (MobiCom'04)},
+  publisher     = "ACM",
+  address       = "New York, NY",		  
+  year          = {2004},
+  pages         = "112--117"
+}
+
+@misc{CROSSBOW,
+  key       = {CROSSBOW},
+  title     = {{XBOW} Sensor Motes Specifications},
+  note      = {http://www.xbow.com},
+  year      = 2008
+}
+
+@article{Culler-01,
+  author        = {D. Culler and D. Estrin and M. Srivastava},
+  title         = {Overview of Sensor Networks},
+  journal       = {IEEE Comput.},
+  volume        = 37,
+  number        = "8 (Special Issue on Sensor Networks)",
+  publisher     = "IEEE",
+  address       = "Los Alamitos, CA",		  
+  year          = {2004},
+  pages         = "41--49"
+}
+
+@misc{Harvard-01,
+    key         = {Harvard CodeBlue},
+    title       = {{CodeBlue}: Sensor Networks for Medical Care},
+    note        = {http://www.eecs.harvard.edu/mdw/ proj/codeblue/},
+    year        = 2008
+}
+
+@InProceedings{Natarajan-01,
+    author      = {A. Natarajan and M. Motani and B. de Silva and K. Yap and K. C. Chua},
+    title       = {Investigating Network Architectures for Body Sensor Networks},
+    booktitle   = {Network Architectures},
+    editor      = {G. Whitcomb and P. Neece},
+    publisher   = "Keleuven Press",
+    address     = "Dayton, OH",		  
+    year        = {2007},
+    pages       = "322--328"
+}
+
+@techreport{Tzamaloukas-01,
+  author        = {A. Tzamaloukas and J. J. Garcia-Luna-Aceves},
+  title         = {Channel-Hopping Multiple Access},
+  number =        {I-CA2301},
+  institution =   {Department of Computer Science, University of California},
+  address =       {Berkeley, CA},
+  year          = {2000}
+}
+
+@BOOK{Zhou-06,
+  author        = {G. Zhou and J. Lu and C.-Y. Wan and M. D. Yarvis and J. A. Stankovic},
+  title         = {Body Sensor Networks},
+  publisher     = "MIT Press",
+  address       = "Cambridge, MA",		  
+  year          = {2008}
+}
+
+@mastersthesis{ko94,
+author = "Jacob Kornerup",
+title = "Mapping Powerlists onto Hypercubes",
+school = "The University of Texas at Austin",
+note = "(In preparation)",
+year = "1994"}
+%month = "dec",}
+
+@PhdThesis{gerndt:89,
+  author =       "Michael Gerndt",
+  title =        "Automatic Parallelization for Distributed-Memory
+                  Multiprocessing Systems",
+  school =       "University of Bonn",
+  year =         1989,
+  address =      "Bonn, Germany",
+  month =        dec
+}
+
+@article{6:1:1,
+author = "J. E. {Archer, Jr.} and R. Conway and F. B. Schneider",
+title = "User recovery and reversal in interactive systems",
+journal = "ACM Trans. Program. Lang. Syst.",
+volume =  "6",
+number = "1",
+month = jan,
+year = 1984,
+pages = "1--19"}
+
+@article{7:1:137,
+author = "D. D. Dunlop and V. R. Basili",
+title = "Generalizing specifications for uniformly implemented loops",
+journal = "ACM Trans. Program. Lang. Syst.",
+volume =  "7",
+number = "1",
+month = jan,
+year = 1985,
+pages = "137--158"}
+
+@article{7:2:183,
+author = "J. Heering and P. Klint",
+title = "Towards monolingual programming environments",
+journal = "ACM Trans. Program. Lang. Syst.",
+volume =  "7",
+number = "2",
+month = apr,
+year = 1985,
+pages = "183--213"}
+
+@book{knuth:texbook,
+author = "Donald E. Knuth",
+title = "The {\TeX{}book}",
+publisher = "Addison-Wesley",
+address = "Reading, MA.",
+year = 1984}
+
+@article{6:3:380,
+author = "E. Korach and D.  Rotem and N. Santoro",
+title = "Distributed algorithms for finding centers and medians in networks",
+journal = "ACM Trans. Program. Lang. Syst.",
+volume =  "6",
+number = "3",
+month = jul,
+year = 1984,
+pages = "380--401"}
+
+@book{lamport:latex,
+author = "Leslie Lamport",
+title = "\it {\LaTeX}: A Document Preparation System",
+publisher = "Addison-Wesley",
+address = "Reading, MA.",
+year = 1986}
+
+@article{7:3:359,
+author = "F. Nielson",
+title = "Program transformations in a denotational setting",
+journal = "ACM Trans. Program. Lang. Syst.",
+volume =  "7",
+number = "3",
+month = jul,
+year = 1985,
+pages = "359--379"}
+
+%testing
+@BOOK{test,
+   author = "Donald E. Knuth",
+   title = "Seminumerical Algorithms",
+   volume = 2,
+   series = "The Art of Computer Programming",
+   publisher = "Addison-Wesley",
+   address = "Reading, MA",
+   edition = "2nd",
+   month = "10~" # jan,
+   year = "1981",
+}
+
+@inproceedings{reid:scribe,
+author = "Brian K. Reid",
+title = "A high-level approach to computer document formatting",
+booktitle = "Proceedings of the 7th Annual Symposium on Principles of
+  Programming Languages",
+month = jan,
+year = 1980,
+publisher = "ACM",
+address = "New York",		  
+pages = "24--31"}
+
+@inproceedings{Bhattacharjee:2018:TFS:3196494.3196551,
+	author = {Bhattacharjee, Shameek and Thakur, Aditya and Das, Sajal K.},
+	title = {Towards Fast and Semi-supervised Identification of Smart Meters Launching Data Falsification Attacks},
+	booktitle = {Proceedings of the 2018 on Asia Conference on Computer and Communications Security},
+	series = {ASIACCS '18},
+	year = {2018},
+	isbn = {978-1-4503-5576-6},
+	location = {Incheon, Republic of Korea},
+	pages = {173--185},
+	numpages = {13},
+	url = {http://doi.acm.org/10.1145/3196494.3196551},
+	doi = {10.1145/3196494.3196551},
+	acmid = {3196551},
+	publisher = {ACM},
+	address = {New York, NY, USA},
+	keywords = {advanced metering infrastructure, anomaly detection, cyber-physical system security, data falsification, false data injection, smart grid security},
+} 
+
+@article{Chandola:2009:ADS:1541880.1541882,
+	author = {Chandola, Varun and Banerjee, Arindam and Kumar, Vipin},
+	title = {Anomaly Detection: A Survey},
+	journal = {ACM Comput. Surv.},
+	issue_date = {July 2009},
+	volume = {41},
+	number = {3},
+	month = jul,
+	year = {2009},
+	issn = {0360-0300},
+	pages = {15:1--15:58},
+	articleno = {15},
+	numpages = {58},
+	url = {http://doi.acm.org/10.1145/1541880.1541882},
+	doi = {10.1145/1541880.1541882},
+	acmid = {1541882},
+	publisher = {ACM},
+	address = {New York, NY, USA},
+	keywords = {Anomaly detection, outlier detection},
+} 
+
+@InProceedings{10.1007/3-540-44795-4_26,
+	author="Lauer, Martin",
+	editor="De Raedt, Luc
+	and Flach, Peter",
+	title="A Mixture Approach to Novelty Detection Using Training Data with Outliers",
+	booktitle="Machine Learning: ECML 2001",
+	year="2001",
+	publisher="Springer Berlin Heidelberg",
+	address="Berlin, Heidelberg",
+	pages="300--311",
+	abstract="This paper describes an approach to handle multivariate training data which contain outliers. The aim is to analyze the training patterns and to detect anomalous patterns. Therefore we explicitly model the existence of outliers in the training data using a widespread outlier distribution. Indicator variables assign each pattern to either the outlier distribution or the distribution of normal patterns. Thus we can estimate the data distribution using the EM-algorithm or Data Augmentation. We present the general approach as well as a concrete realization where we use Gaussian mixture models to describe the patterns' distribution. Experimental results show the applicability of this approach for practical studies.",
+	isbn="978-3-540-44795-5"
+}
+
+
+
+@article{article123,
+	author = {Yuan, Y and Jia, K.-B},
+	year = {2016},
+	month = {01},
+	pages = {858-866},
+	title = {A semi-supervised approach for water quality detection based on IoT network},
+	volume = {7}
+}
+
+@inproceedings{inproceedings1,
+	author = {Martinelli, Marco and Tronci, Enrico and Dipoppa, Giovanni and Balducelli, Claudio},
+	year = {2004},
+	month = {09},
+	pages = {1242-1248},
+	title = {Electric Power System Anomaly Detection Using Neural Networks},
+	volume = {3213},
+	doi = {10.1007/978-3-540-30132-5_168}
+}
+
+@Inbook{Haynes2013,
+	author="Haynes, Winston",
+	editor="Dubitzky, Werner
+	and Wolkenhauer, Olaf
+	and Cho, Kwang-Hyun
+	and Yokota, Hiroki",
+	title="Tukey's Test",
+	bookTitle="Encyclopedia of Systems Biology",
+	year="2013",
+	publisher="Springer New York",
+	address="New York, NY",
+	pages="2303--2304",
+	isbn="978-1-4419-9863-7",
+	doi="10.1007/978-1-4419-9863-7_1212",
+	url="https://doi.org/10.1007/978-1-4419-9863-7_1212"
+}
+
+@article{10.2307/1402471,
+	ISSN = {03067734, 17515823},
+	URL = {http://www.jstor.org/stable/1402471},
+	abstract = {This survey, which is in two parts, is expository in nature and gives an account of the development of the theory of Maximum Likelihood Estimation (MLE) since its introduction in the papers of Fisher (1922, 1925) up to the present day where original work in this field still continues. After a short introduction there follows a historical account in which in particular it is shown that Fisher may indeed be rightfully regarded as the originator of this method of estimation since all previous apparently similar methods depended on the method of inverse probability. There then follows a summary of a number of fundamental definitions and results which originate from the papers of Fisher himself and the later contributions of Cramer and Rao. Consistency and Efficiency in relation to maximum likelihood estimators (MLE's) are then considered in detail and an account of Cramer's important (1946) theorem is given, though it is remarked that, with regard to consistency. Wald's (1949) proof has greater generality. Comments are then made on a number of subsequent related contributions. The paper then continues with a discussion of the problem of comparing MLE's with other estimators. Special mention is then made of Rao's measure of "second-order efficiency" since this does provide a means of discriminating between the various best asymptotically Normal (BAN) estimators of which maximum likelihood estimators form a subclass. Subsequently there is a survey of work in the multiparameter field which begins with a brief account of the classical Cramer-Rao theory. Finally there is a section on the theoretical difficulties which arise by reason of the existence of inconsistent maximum likelihood estimates and of estimators which are super efficient. Particular reference is made to Rao's (1962) paper in which these anomalies were considered and at least partially resolved by means of alternative criteria of consistency and efficiency which nevertheless are rooted in Fisher's original ideas. /// Présenté sous forme d'exposition, ce mémoire (en deux parties) traite du développement de la théorie du Maximum de Vraisemblance (m.l.), depuis son introduction dans les exposés de Fisher (1922 et 1925), jusqu'à l'époque actuelle, où des recherches originales se poursuivent toujours. Après un court préambule, l'auteur donne un aperçu historique dans lequel il démontre notamment que c'est à juste titre que l'on considère Fisher comme l'originateur de cette méthode d'estimation, puisque toutes les méthodes antérieures, bien que similaires en apparence, dépendaient en effet de la méthode de la probabilité inverse. Le mémoire donne ensuite, en résumé, quelques définitions et résultats fondamentaux, ayant leurs origines dans les exposés de Fisher lui-même et dans les contributions apportées plus tard par MM. Cramer et Rao. La consistance et l'efficience, par rapport au m.l. sont alors considérées dans le détail. Le théorème important de Cramer (1946) est également mentionné, mais avec la remarque que, en ce qui concerne la consistance, la preuve de Wald (1949) est d'une application plus générale. Viennent ensuite quelques observations sur des exposés subséquents qui s'y rattachent. Le mémoire se poursuit par la discussion du problème de la comparaison des m.l. avec d'autres estimateurs. L'auteur attache une importance toute spéciale au concept de Rao - "l'efficience de second ordre" - étant donné que celle-ci fournit en réalité le moyen de différencier les divers estimateurs BAN ("best asymptotic normal"), dont les m.l. forment une sous-classe. L'auteur continue en résumant le travail fait dans le domaine des multi-paramètres, où il commence par un bref résumé de la théorie Cramer-Rao bien connue. Pour finir, il y a une section traitant des difficultés théoriques que suscite l'existence de m.l. inconsistants et d'estimateurs super-efficients. L'auteur fait une allusion particulière à l'exposé de Rao (1962), dans lequel ces anomalies ont été considérées et résolues, au moins partiellement, par l'utilisation d'autres critères de consistance et d'efficience, lesquels critères ont néanmoins comme source les idées originales de Fisher. Dans la bibliographie, à la fin du mémoire, se trouvent les titres d'environ quatre cents exposés. Quelques définitions importantes sont données séparément en annexe.},
+	author = {R. H. Norden},
+	journal = {International Statistical Review / Revue Internationale de Statistique},
+	number = {3},
+	pages = {329--354},
+	publisher = {[Wiley, International Statistical Institute (ISI)]},
+	title = {A Survey of Maximum Likelihood Estimation},
+	volume = {40},
+	year = {1972}
+}
+
+
+
+
+
+@inproceedings{Kruegel:2003:ADW:948109.948144,
+	author = {Kruegel, Christopher and Vigna, Giovanni},
+	title = {Anomaly Detection of Web-based Attacks},
+	booktitle = {Proceedings of the 10th ACM Conference on Computer and Communications Security},
+	series = {CCS '03},
+	year = {2003},
+	isbn = {1-58113-738-9},
+	location = {Washington D.C., USA},
+	pages = {251--261},
+	numpages = {11},
+	url = {http://doi.acm.org/10.1145/948109.948144},
+	doi = {10.1145/948109.948144},
+	acmid = {948144},
+	publisher = {ACM},
+	address = {New York, NY, USA},
+	keywords = {anomaly detection, network security, world-wide web},
+} 
+
+@article{ARAYA2017191,
+	title = "An ensemble learning framework for anomaly detection in building energy consumption",
+	journal = "Energy and Buildings",
+	volume = "144",
+	pages = "191 - 206",
+	year = "2017",
+	issn = "0378-7788",
+	doi = "https://doi.org/10.1016/j.enbuild.2017.02.058",
+	url = "http://www.sciencedirect.com/science/article/pii/S0378778817306904",
+	author = "Daniel B. Araya and Katarina Grolinger and Hany F. ElYamany and Miriam A.M. Capretz and Girma Bitsuamlak",
+	keywords = "Anomaly detection, Ensemble learning, Autoencoder, Support vector regression, Random forest, Building energy consumption",
+	abstract = "During building operation, a significant amount of energy is wasted due to equipment and human-related faults. To reduce waste, today's smart buildings monitor energy usage with the aim of identifying abnormal consumption behaviour and notifying the building manager to implement appropriate energy-saving procedures. To this end, this research proposes a new pattern-based anomaly classifier, the collective contextual anomaly detection using sliding window (CCAD-SW) framework. The CCAD-SW framework identifies anomalous consumption patterns using overlapping sliding windows. To enhance the anomaly detection capacity of the CCAD-SW, this research also proposes the ensemble anomaly detection (EAD) framework. The EAD is a generic framework that combines several anomaly detection classifiers using majority voting. To ensure diversity of anomaly classifiers, the EAD is implemented by combining pattern-based (e.g., CCAD-SW) and prediction-based anomaly classifiers. The research was evaluated using real-world data provided by Powersmiths, located in Brampton, Ontario, Canada. Results show that the EAD framework improved the sensitivity of the CCAD-SW by 3.6% and reduced false alarm rate by 2.7%."
+}
+
+@ARTICLE{6786500, 
+	author={J. Hong and C. Liu and M. Govindarasu}, 
+	journal={IEEE Transactions on Smart Grid}, 
+	title={Integrated Anomaly Detection for Cyber Security of the Substations}, 
+	year={2014}, 
+	volume={5}, 
+	number={4}, 
+	pages={1643-1653}, 
+	keywords={computer network security;power engineering computing;power grids;power system reliability;substation automation;cyber intrusions;substations;power grid;physical security;severe cascading events;catastrophic power outages;integrated anomaly detection system;ADS;host-based anomaly detection systems;network-based anomaly detection systems;simultaneous anomaly detection;substation automation testbed;temporal anomalies;substation facilities;user-interfaces;intelligent electronic devices;IED;circuit breakers;malicious behaviors;multicast messages;generic object oriented substation event;GOOSE;sampled measured value;SMV;simultaneous intrusion detection method;Computer security;Substation automation;Circuit breakers;Power grids;Intrusion detection;Anomaly detection;cyber security of substations;GOOSE anomaly detection;SMV anomaly detection and intrusion detection}, 
+	doi={10.1109/TSG.2013.2294473}, 
+	ISSN={1949-3053}, 
+	month={July},}
+
+@article{Zhou:2010:MMS:1721695.1721705,
+ author = {Zhou, Gang and Wu, Yafeng and Yan, Ting and He, Tian and Huang, Chengdu and Stankovic, John A. and Abdelzaher, Tarek F.},
+ title = {A multifrequency MAC specially designed for wireless sensor network applications},
+ journal = {ACM Trans. Embed. Comput. Syst.},
+ issue_date = {March 2010},
+ volume = {9},
+ number = {4},
+ month = {April},
+ year = {2010},
+ issn = {1539-9087},
+ pages = {39:1--39:41},
+ articleno = {39},
+ numpages = {41},
+ url = {http://doi.acm.org/10.1145/1721695.1721705},
+ doi = {10.1145/1721695.1721705},
+ acmid = {1721705},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Wireless sensor networks, media access control, multi-channel, radio interference, time synchronization},
+}

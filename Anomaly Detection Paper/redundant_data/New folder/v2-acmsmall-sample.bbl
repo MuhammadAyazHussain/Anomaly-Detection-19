@@ -1,0 +1,180 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{{\tt DOI:}\penalty0{#1}\ }
+  \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
+
+\bibitem[\protect\citeauthoryear{Araya, Grolinger, ElYamany, Capretz, and
+  Bitsuamlak}{Araya et~al\mbox{.}}{2017}]%
+        {ARAYA2017191}
+{Daniel~B. Araya}, {Katarina Grolinger}, {Hany~F. ElYamany}, {Miriam~A.M.
+  Capretz}, {and} {Girma Bitsuamlak}. 2017.
+\newblock \showarticletitle{An ensemble learning framework for anomaly
+  detection in building energy consumption}.
+\newblock {\em Energy and Buildings\/}  {144} (2017), 191 -- 206.
+\newblock
+\showISSN{0378-7788}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.enbuild.2017.02.058}}
+
+
+\bibitem[\protect\citeauthoryear{Bhattacharjee, Thakur, and Das}{Bhattacharjee
+  et~al\mbox{.}}{2018}]%
+        {Bhattacharjee:2018:TFS:3196494.3196551}
+{Shameek Bhattacharjee}, {Aditya Thakur}, {and} {Sajal~K. Das}. 2018.
+\newblock \showarticletitle{Towards Fast and Semi-supervised Identification of
+  Smart Meters Launching Data Falsification Attacks}. In {\em Proceedings of
+  the 2018 on Asia Conference on Computer and Communications Security} {\em
+  (ASIACCS '18)}. ACM, New York, NY, USA, 173--185.
+\newblock
+\showISBNx{978-1-4503-5576-6}
+\showDOI{%
+\url{http://dx.doi.org/10.1145/3196494.3196551}}
+
+
+\bibitem[\protect\citeauthoryear{Chandola, Banerjee, and Kumar}{Chandola
+  et~al\mbox{.}}{2009}]%
+        {Chandola:2009:ADS:1541880.1541882}
+{Varun Chandola}, {Arindam Banerjee}, {and} {Vipin Kumar}. 2009.
+\newblock \showarticletitle{Anomaly Detection: A Survey}.
+\newblock {\em ACM Comput. Surv.\/} {41}, 3, Article 15 (July 2009), 58 pages.
+\newblock
+\showISSN{0360-0300}
+\showDOI{%
+\url{http://dx.doi.org/10.1145/1541880.1541882}}
+
+
+\bibitem[\protect\citeauthoryear{Fan, Xiao, Zhao, and Wang}{Fan
+  et~al\mbox{.}}{2018}]%
+        {FAN20181123}
+{Cheng Fan}, {Fu Xiao}, {Yang Zhao}, {and} {Jiayuan Wang}. 2018.
+\newblock \showarticletitle{Analytical investigation of autoencoder-based
+  methods for unsupervised anomaly detection in building energy data}.
+\newblock {\em Applied Energy\/}  {211} (2018), 1123 -- 1135.
+\newblock
+\showISSN{0306-2619}
+\showDOI{%
+\url{http://dx.doi.org/https://doi.org/10.1016/j.apenergy.2017.12.005}}
+
+
+\bibitem[\protect\citeauthoryear{Haynes}{Haynes}{2013}]%
+        {Haynes2013}
+{Winston Haynes}. 2013.
+\newblock {\em Tukey's Test}.
+\newblock Springer New York, New York, NY, 2303--2304.
+\newblock
+\showISBNx{978-1-4419-9863-7}
+\showDOI{%
+\url{http://dx.doi.org/10.1007/978-1-4419-9863-7_1212}}
+
+
+\bibitem[\protect\citeauthoryear{Hong, Liu, and Govindarasu}{Hong
+  et~al\mbox{.}}{2014}]%
+        {6786500}
+{J. Hong}, {C. Liu}, {and} {M. Govindarasu}. 2014.
+\newblock \showarticletitle{Integrated Anomaly Detection for Cyber Security of
+  the Substations}.
+\newblock {\em IEEE Transactions on Smart Grid\/} {5}, 4 (July 2014),
+  1643--1653.
+\newblock
+\showISSN{1949-3053}
+\showDOI{%
+\url{http://dx.doi.org/10.1109/TSG.2013.2294473}}
+
+
+\bibitem[\protect\citeauthoryear{Kruegel and Vigna}{Kruegel and Vigna}{2003}]%
+        {Kruegel:2003:ADW:948109.948144}
+{Christopher Kruegel} {and} {Giovanni Vigna}. 2003.
+\newblock \showarticletitle{Anomaly Detection of Web-based Attacks}. In {\em
+  Proceedings of the 10th ACM Conference on Computer and Communications
+  Security} {\em (CCS '03)}. ACM, New York, NY, USA, 251--261.
+\newblock
+\showISBNx{1-58113-738-9}
+\showDOI{%
+\url{http://dx.doi.org/10.1145/948109.948144}}
+
+
+\bibitem[\protect\citeauthoryear{Lauer}{Lauer}{2001}]%
+        {10.1007/3-540-44795-4_26}
+{Martin Lauer}. 2001.
+\newblock \showarticletitle{A Mixture Approach to Novelty Detection Using
+  Training Data with Outliers}. In {\em Machine Learning: ECML 2001}, {Luc
+  De~Raedt} {and} {Peter Flach} (Eds.). Springer Berlin Heidelberg, Berlin,
+  Heidelberg, 300--311.
+\newblock
+\showISBNx{978-3-540-44795-5}
+
+
+\bibitem[\protect\citeauthoryear{Martinelli, Tronci, Dipoppa, and
+  Balducelli}{Martinelli et~al\mbox{.}}{2004}]%
+        {inproceedings1}
+{Marco Martinelli}, {Enrico Tronci}, {Giovanni Dipoppa}, {and} {Claudio
+  Balducelli}. 2004.
+\newblock \showarticletitle{Electric Power System Anomaly Detection Using
+  Neural Networks}, Vol. 3213. 1242--1248.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.1007/978-3-540-30132-5_168}}
+
+
+\bibitem[\protect\citeauthoryear{Mcgill, Tukey, and Larsen}{Mcgill
+  et~al\mbox{.}}{1978}]%
+        {doi:10.1080/00031305.1978.10479236}
+{Robert Mcgill}, {John~W. Tukey}, {and} {Wayne~A. Larsen}. 1978.
+\newblock \showarticletitle{Variations of Box Plots}.
+\newblock {\em The American Statistician\/} {32}, 1 (1978), 12--16.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.1080/00031305.1978.10479236}}
+
+
+\bibitem[\protect\citeauthoryear{Norden}{Norden}{1972}]%
+        {10.2307/1402471}
+{R.~H. Norden}. 1972.
+\newblock \showarticletitle{A Survey of Maximum Likelihood Estimation}.
+\newblock {\em International Statistical Review / Revue Internationale de
+  Statistique\/} {40}, 3 (1972), 329--354.
+\newblock
+\showISSN{03067734, 17515823}
+\showURL{%
+\url{http://www.jstor.org/stable/1402471}}
+
+
+\bibitem[\protect\citeauthoryear{Yuan and Jia}{Yuan and Jia}{2016}]%
+        {article123}
+{Y Yuan} {and} {K.-B Jia}. 2016.
+\newblock \showarticletitle{A semi-supervised approach for water quality
+  detection based on IoT network}.
+\newblock   {7} (01 2016), 858--866.
+\newblock
+
+
+\end{thebibliography}
